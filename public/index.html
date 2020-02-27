@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vote for your STAR</title>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <!-- <link rel='stylesheet prefetch' href='https://ilt-insightdlp-static.s3.amazonaws.com/css/default.css'> -->
+  <script type="text/javascript" src="https://cdn.ably.io/lib/ably.min-1.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-2">
+        <img src="./FILMANIA.png" alt="" height="120px" width="165px">
+      </div>
+      <div class="col-sm-6">
+        <!-- style="background-color:#FFDF00" -->
+        <div class="text-center">
+          <h1>
+            <font face="raleway" color="#007acc">
+              VJ FILMANIA
+              <br>
+            </font>
+          </h1>
+          <h4>
+            <font face="raleway" color="#29293d">
+              For Every 10 votes you cast we donate a book to Orphanage!
+            </font>
+          </h4>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <img src="./Sintillashunz20.png" alt="" height="100px" width="135px">
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <table class="table table-dark m-5 text-center table-hover table-bordered">
+          <thead>
+            <tr>
+              <th style="font-style: italic;"><h4>Tap on your Fav Hero</h4></th>
+              <th style="font-style: italic;"><h4>No. of Votes</h4></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="Prabhas" onclick="HeroClicked(0)">Prabhas</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="0">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="Mahesh" onclick="HeroClicked(1)">Mahesh</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="1">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="Pawan" onclick="HeroClicked(2)">PK</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="2">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="NTR" onclick="HeroClicked(3)">NTR</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="3">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="Allu Arjun" onclick="HeroClicked(4)">Allu Arjun</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="4">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="Vijay Devarakonda" onclick="HeroClicked(5)">Vijay Devarakonda</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="5">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="Bellamkonda" onclick="HeroClicked(6)">Bellamkonda</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="6">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="RamCharan" onclick="HeroClicked(7)">RamCharan</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="7">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="VarunTej" onclick="HeroClicked(8)">VarunTej</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="8">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="Naga Chaitanya" onclick="HeroClicked(9)">Naga Chaitanya</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="9">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="text-center">
+                  <button id="Nani" onclick="HeroClicked(10)">Nani</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" id="10">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+  </div>
+</body>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</html>
